@@ -15,6 +15,8 @@
 		C48E6CC72676AA0600B95885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6C9C2676AA0500B95885 /* ContentView.swift */; };
 		C48E6CC82676AA0600B95885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48E6C9D2676AA0600B95885 /* Assets.xcassets */; };
 		C48E6CC92676AA0600B95885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48E6C9D2676AA0600B95885 /* Assets.xcassets */; };
+		C48E6CDA2676AA8100B95885 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6CD92676AA8100B95885 /* MenuView.swift */; };
+		C48E6CDB2676AA8100B95885 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6CD92676AA8100B95885 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		C48E6CBD2676AA0600B95885 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E6CC12676AA0600B95885 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C48E6CC32676AA0600B95885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48E6CD92676AA8100B95885 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 		C48E6C9A2676AA0500B95885 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C48E6CD82676AA5D00B95885 /* Menu */,
 				C48E6C9B2676AA0500B95885 /* MacMenuApp.swift */,
 				C48E6C9C2676AA0500B95885 /* ContentView.swift */,
 				C48E6C9D2676AA0600B95885 /* Assets.xcassets */,
@@ -149,6 +153,14 @@
 				C48E6CC32676AA0600B95885 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		C48E6CD82676AA5D00B95885 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C48E6CD92676AA8100B95885 /* MenuView.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48E6CC62676AA0600B95885 /* ContentView.swift in Sources */,
+				C48E6CDA2676AA8100B95885 /* MenuView.swift in Sources */,
 				C48E6CC42676AA0600B95885 /* MacMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48E6CC72676AA0600B95885 /* ContentView.swift in Sources */,
+				C48E6CDB2676AA8100B95885 /* MenuView.swift in Sources */,
 				C48E6CC52676AA0600B95885 /* MacMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
